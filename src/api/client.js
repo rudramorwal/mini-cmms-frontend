@@ -54,7 +54,7 @@ export const getTechnicians = async () => {
 };
 
 export const getDashboardStats = async () => {
-  const response = await client.get('/dashboard/stats');
+  const response = await client.get('/dashboard/');
   return response.data;
 };
 
